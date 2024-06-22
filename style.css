@@ -1,0 +1,166 @@
+/*
+  Template Name: Pixal - Creative Multipurpose Template
+  Template URI: http://devitems.com
+  Description: Creative Multipurpose Template
+  Author: Hasthemes
+  Author URI: http://devitems.com
+  Version: 1.0
+
+*/
+/*================================================
+[  Table of contents  ]
+================================================
+
+  1. Import Default & Template CSS
+  2. Custom CSS Goes Here
+
+======================================
+[ End table content ]
+======================================*/
+
+/*--
+    1. Import Default & Template CSS
+----------------------------------------*/
+/*Default*/
+@import url('css/default.css');
+/*Buttons*/
+@import url('css/shortcode/buttons.css');
+/*Headers*/
+@import url('css/shortcode/header.css');
+/*Templates*/
+@import url('css/template/creative.css');
+@import url('css/template/corporate.css');
+@import url('css/template/restaurant.css');
+@import url('css/template/minimal.css');
+@import url('css/template/photography.css');
+
+/*--
+    2. Custom CSS Goes Here
+----------------------------------------*/
+.co-portfolio-section-2,
+.co-about-content-3,
+.co-hero-slide-content-3,
+.content,
+.co-cta-section-1,
+.co-section-title-3,
+.title {
+  direction: rtl;
+}
+
+.co-service-section-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Contact */
+
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-form {
+  font-weight: 700;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0) linear-gradient(45deg, #4481eb 0%, #04bffe 100%) repeat scroll 0 0;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(59, 155, 242, 0.45);
+  margin: 50px auto;
+  color: #ffffff;
+  direction: rtl;
+}
+.contact-form h2 {
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.contact-form p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e0f7fa;
+}
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333333;
+  font-weight: 600;
+}
+.contact-form button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #4481eb;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.contact-form button:hover {
+  background-color: #4481eb;
+  color: #ffffff;
+}
+
+/* BTN NAV */
+
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 30px;
+  background: rgba(0, 0, 0, 0) linear-gradient(45deg, #4481eb 0%, #04bffe 100%) repeat scroll 0 0;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 10px 20px rgba(59, 155, 242, 0.45);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+.floating-button.scrolled {
+  top: 20px;
+  bottom: auto;
+  right: 20px;
+}
+
+.co-copyright-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ma {
+  color: white;
+}
+
+body {
+  font-size: 20px;
+}
+
+.text-center {
+  direction: rtl;
+}
+
+.header-logo {
+  color: white;
+  font-weight: 700;
+  width: auto;
+}
