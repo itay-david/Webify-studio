@@ -191,7 +191,7 @@
                 <div class="co-single-process-3 text-center">
                     <span class="number">2</span>
                     <h4 class="title">בניית האתר <i class="icon-tools"></i></h4>
-                    <p>אתם שולחים לנו חומרים ואת השאר תשאירו לנו, עד שלא תהיו מרוצים 100% לא נעבור לשלב הבא!</p>
+                    <p>אתם שולחים לנו חומרים ואת השאר תשאירו לנו, נעבור לשלב הבא רק כאשר תהיו מרוצים ב100 אחוז!</p>
                 </div>
             </div>
            
@@ -285,7 +285,7 @@
                                 <div class="co-single-testimonial-2 text-center">
                                     <p>הצוות בנה לנו אתר מרשים שמביא לנו לקוחות חדשים כל יום!</p>
                                     <div class="co-testimonial-author-info-2">
-                                        <img src="img/corporate/testimonial/1.jpg" alt="">
+                                        <img src="profiles/profile-2.jpg" alt="">
                                         <h5>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;יובל כהן</h5>
                                         <span>משתלת יובל</span>
                                     </div>
@@ -294,7 +294,7 @@
                                 <div class="co-single-testimonial-2 text-center">
                                     <p>שירות מקצועי, אמין ומהיר. האתר שלנו נראה מעולה ומאוד ידידותי למשתמשים.</p>
                                     <div class="co-testimonial-author-info-2">
-                                        <img src="img/corporate/testimonial/2.jpg" alt="">
+                                        <img src="profiles/profile-1.jpg" alt="">
                                         <h5>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;עדי לוי</h5>
                                         <span>סטודיו עדי לעיצוב</span>
                                     </div>
@@ -303,7 +303,7 @@
                                 <div class="co-single-testimonial-2 text-center">
                                     <p>לא יכולנו לבקש עבודה טובה יותר. אתר ברמה גבוהה עם עיצוב מהמם.</p>
                                     <div class="co-testimonial-author-info-2">
-                                        <img src="img/corporate/testimonial/2.jpg" alt="">
+                                        <img src="profiles/profile-4.jpg" alt="">
                                         <h5>נועם בן-שושן</h5>
                                         <span>א.ש. הנדסה</span>
                                     </div>
@@ -312,7 +312,7 @@
                                 <div class="co-single-testimonial-2 text-center">
                                     <p>ממליץ בחום! התהליך היה חלק והתוצאה בדיוק כמו שחלמנו.</p>
                                     <div class="co-testimonial-author-info-2">
-                                        <img src="img/corporate/testimonial/2.jpg" alt="">
+                                        <img src="profiles/profile-5.jpg" alt="">
                                         <h5>&#160;&#160;&#160;&#160;&#160;&#160;אורן מלכה</h5>
                                         <span>מסעדת החוף</span>
                                     </div>
@@ -321,7 +321,7 @@
                                 <div class="co-single-testimonial-2 text-center">
                                     <p>עבודה מצוינת ומקצועית. האתר החדש שלנו מעלה את העסק לרמה הבאה.</p>
                                     <div class="co-testimonial-author-info-2">
-                                        <img src="img/corporate/testimonial/2.jpg" alt="">
+                                        <img src="profiles/profile-3.jpg" alt="">
                                         <h5>&#160;&#160;&#160;&#160;&#160;&#160;אפרת גיל</h5>
                                         <span>גיל פרויקטים</span>
                                     </div>
@@ -345,11 +345,13 @@
     <div class="contact-form">
         <h2>צרו קשר עכשיו!</h2>
         <p>נשמח לשמוע מכם ולעזור בכל שאלה או בקשה. אנא מלאו את הפרטים הבאים ונחזור אליכם בהקדם.</p>
-        <form action="#" method="post">
+        <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="183dde21-3010-4612-9a63-30dffd2d1b58">
             <input type="text" id="name" name="name" placeholder="שם מלא" required>
             <input type="email" id="email" name="email" placeholder="אימייל" required>
             <input type="tel" id="phone" name="phone" placeholder="מספר טלפון" required>
             <textarea id="message" name="message" rows="4" placeholder="יש לכם שאלה, בקשות ספציפיות? רשמו כאן!" required></textarea>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
     
             <button type="submit">שלח</button>
         </form>
